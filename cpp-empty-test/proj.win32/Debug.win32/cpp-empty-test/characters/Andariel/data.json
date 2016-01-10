@@ -1,0 +1,19 @@
+{
+  "name": "Andariel",
+  "actions": {
+    "Neutral": 
+    { "frameSize": 16 },
+    "Death": 
+    { "frameSize": 23 },
+    "Attack1": 
+    { "frameSize": 16 },
+    "Casting": 
+    { "frameSize": 18 },
+    "GetHit": 
+    { "frameSize": 6 },
+    "Walk": 
+    { "frameSize": 12 },
+    "Dead": 
+    { "frameSize": 1 }
+  }
+}

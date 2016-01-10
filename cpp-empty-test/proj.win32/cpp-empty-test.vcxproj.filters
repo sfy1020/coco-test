@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{9c275bd6-26d1-40b6-b18e-28d8e2c76d4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{690d77db-0d22-4338-91ae-58d2f9b694df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Character.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CharacterDataPool.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\EntityManager.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameWorld.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameWorldScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MessageDispatcher.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Motion.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MovingEntity.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ParameterLoader.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Path.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PrecisionTimer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SteeringBehaviors.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Structure.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WalkState.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BaseGameEntity.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RenderingEntity.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppMacros.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BaseGameEntity.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\C2DMatrix.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Character.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CharacterDataPool.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EntityFunctionTemplates.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EntityManager.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FrameCounter.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameWorld.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameWorldScene.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\geometry.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GlobalValues.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\IDGenerator.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MessageDispatcher.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Motion.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MovingEntity.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ParameterLoader.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Path.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PrecisionTimer.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RenderingEntity.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Singleton.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Smoother.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\State.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\StateMachine.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SteeringBehaviors.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Structure.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Telegram.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Transformations.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WalkState.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util.h">
+      <Filter>header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\params.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\Resources\characters\Andariel\data.json">
+      <Filter>data</Filter>
+    </None>
+  </ItemGroup>
+</Project>
