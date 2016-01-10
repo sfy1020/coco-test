@@ -23,7 +23,7 @@ void AppDelegate::initGLContextAttrs()
 
     GLView::setGLContextAttrs(glContextAttrs);
 }
-
+//
 bool AppDelegate::applicationDidFinishLaunching() {
     // initialize director
     auto director = Director::getInstance();
